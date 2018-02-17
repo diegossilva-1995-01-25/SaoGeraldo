@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+/* 	background-image: ; */
+
+body {
+	font-family: cursive;
+	text-align: center;
+}
+
+.header {
+	
+	background-image: url(../images/WallPaperSGeraldo01.jpg);
+	color: rgb(187, 127, 44);
+	border-bottom-width: 10px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-top-width: 10px;
+	border-top-color: black;
+	border-top-style: solid;
+	
+}
+
+.footer {
+	
+	color: rgb(187, 127, 44);
+	background-color: black;
+	border-bottom-width: 10px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-top-width: 10px;
+	border-top-color: black;
+	border-top-style: solid;
+	
+}
+
+.content {
+	
+	background-color: rgb(187, 127, 44);
+	border-bottom-width: 10px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-top-width: 10px;
+	border-top-color: black;
+	border-top-style: solid;
+	
+}
+
+#Jesus {
+	
+	color: rgb(187, 127, 44);
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 5em;
+	
+}
+
+h6 {
+	
+	text-align: right;
+	
+}
+
+img {
+	
+	text-align: center;
+	
+}
+
+.galeria {
+	
+	text-align: center;
+	
+	
+}

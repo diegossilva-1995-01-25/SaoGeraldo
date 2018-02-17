@@ -1,0 +1,29 @@
+package com.saogeraldo.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name="fotos")
+public class PhotosTest {
+
+	private List<String> fotos;
+	
+	public void init() {
+		
+		fotos = new ArrayList<>();
+		
+		fotos.add("../WebContent/images/Oracao.jpg");
+		fotos.add("../WebContent/images/Ensino.jpg");
+		fotos.add("../WebContent/images/Ceia.jpg");
+		fotos.add("../WebContent/images/Familia.jpg");
+		
+	}
+	
+	public List<String> getFotos() {
+		return fotos;
+	}
+	
+	
+}

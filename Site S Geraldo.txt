@@ -1,0 +1,18 @@
+Site S. Geraldo:
+- Postar imagens;
+- Mostrar miniaturas;
+- Parte de login;
+- Parte pública;
+- Exibe miniatura e bota para
+download;
+- Classe enum TipoUsuario:
+    - Admin;
+    - Usuário.
+- Java, JSF, PrimeFaces, HTML, CSS, SQL;
+- BD SQL Server, MEGA (armazaenar as
+imagens) e Azure (Hospedagem).
+
+- Página para os deptos;
+- Página para o pastor;
+- Página para os cultos;
+- Página para os uploads;

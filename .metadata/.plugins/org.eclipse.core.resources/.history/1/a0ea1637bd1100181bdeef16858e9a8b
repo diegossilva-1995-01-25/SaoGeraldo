@@ -1,0 +1,28 @@
+package com.saogeraldo.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+
+@ManagedBean(name="fotosTeste")
+public class PhotosTest {
+
+	private List<String> fotos;
+	
+	@PostConstruct
+	public void init() {
+		
+		fotos = new ArrayList<String>();
+		
+		
+		
+	}
+	
+	public List<String> getFotos() {
+		return fotos;
+	}
+	
+	
+}

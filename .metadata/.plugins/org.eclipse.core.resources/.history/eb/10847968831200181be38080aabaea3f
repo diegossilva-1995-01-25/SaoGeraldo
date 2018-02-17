@@ -1,0 +1,43 @@
+package com.saogeraldo.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.context.FacesContext;
+
+@ManagedBean(name="teste")
+public class TesteFotos {
+
+	private List<String> images;
+	private List<String> descricoes;
+    
+    @PostConstruct
+    public void init() {
+    	
+    	FacesContext.getCurrentInstance().getExternalContext().getSession(true);
+    	
+        images = new ArrayList<String>();
+        descricoes = new ArrayList<String>();
+        
+        images.add("Oracao.jpg");
+        descricoes.add(" do Círculo de Oração.");
+        
+        images.add("Ensino.jpg");
+        descricoes.add(" de Ensinamento.");
+        
+        images.add("Familia.jpg");
+        descricoes.add(" da Família.");
+        
+    }
+ 
+    public List<String> getImages() {
+        return images;
+    }
+    
+    public List<String> getDescricoes() {
+        return descricoes;
+    }
+	
+}

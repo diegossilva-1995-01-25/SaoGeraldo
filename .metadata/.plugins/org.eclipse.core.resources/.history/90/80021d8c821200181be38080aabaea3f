@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>AD Brás Jd. S. Geraldo</title>
+	<link type="text/css" rel="stylesheet" href="styles/estilos.css"/>
+</h:head>
+
+<h:body>
+
+<h:form>
+	
+	<div class="header">
+		<h1 id="Jesus">JESUS</h1>
+		<h1>Assembléia de Deus - Ministério do Brás</h1>
+		<h2>Subcongregação Jd. São Geraldo</h2>
+		
+		<h4>"Como é <strong>feliz e agradável</strong> observar quando os <strong>irmãos vivem em fraternidade</strong></h4>
+		<h4>É como um bálsamo precioso derramado sobre a cabeça, que desce pela barba</h4>
+		<h4>como se fosse a barba de Arão, até a gola de suas vestes sacerdotais.</h4>
+		<h4>É como o orvalho do Hermom quando desce sobre os montes de Sião. Porquanto</h4>
+		<h4>ali o SENHOR oferece a sua bênção: vida para hoje e por toda a eternidade!"</h4>
+		<h5>Salmo 133</h5>
+		
+	</div>
+	
+	<div class="content">
+		<h1>Bem-Vindos à <strong>Família São Geraldo</strong> </h1>
+		<h2> <strong>Jesus Está Aqui!</strong> </h2>
+		
+		<h3>Nossos Cultos</h3>
+		<p:panelGrid columns="1" styleClass="grid">
+					
+			<p:galleria value="#{teste.images}" var="im"  panelWidth="720"
+			panelHeight="720" showCaption="true" styleClass="galeria">
+				<p:graphicImage value="/images/#{im}" alt="Culto de #{im}" title="#{im}"/>
+			</p:galleria>
+		
+		</p:panelGrid>
+		
+		<h3>Próximos Eventos</h3>
+		<img src="images/Ceia.jpg"/>
+		
+		<h3>Últimos Eventos</h3>
+		<img src="images/Janeiro-Renovacao.png"/>
+		
+		<h3>Dirigentes Locais:</h3>
+		<h4>Pr. Luiz Carlos Queiroz e Pra. Miriam Pontes</h4>
+		
+	</div>
+	
+	
+	<div class="footer">
+		
+		<h3>Onde estamos:</h3>
+		<h3>Rua Jerônimo Dias Ribeiro, 29 - Jardim São Paulo -</h3>
+		<h3>Guaianases - São Paulo-SP</h3>
+		<h6>Website by: Diego Souza Silva</h6>
+		<h6>Photos by: Grei Silva Lima</h6>
+		
+	</div>
+	
+</h:form>
+	
+</h:body>
+
+</html>
