@@ -176,3 +176,15 @@
 0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:09:54 -0300] "POST /SiteSGeraldo/irmas.xhtml HTTP/1.1" 200 5057
 0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:10:24 -0300] "GET /SiteSGeraldo/varoes.xhtml HTTP/1.1" 200 2862
 0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:10:24 -0300] "GET /SiteSGeraldo/styles/estilos.css HTTP/1.1" 200 1536
+127.0.0.1 - - [17/Mar/2018:15:24:27 -0300] "GET / HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:24:28 -0300] "GET /SiteSGeraldo/varoes.xhtml HTTP/1.1" 200 2908
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:24:28 -0300] "GET /SiteSGeraldo/styles/estilos.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:24:32 -0300] "POST /SiteSGeraldo/varoes.xhtml;jsessionid=B7C947D111973B02E7077E780F503BA2 HTTP/1.1" 200 5052
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:05 -0300] "POST /SiteSGeraldo/main.xhtml HTTP/1.1" 200 2929
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:11 -0300] "POST /SiteSGeraldo/irmas.xhtml HTTP/1.1" 200 5052
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:13 -0300] "POST /SiteSGeraldo/main.xhtml HTTP/1.1" 200 2929
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:15 -0300] "POST /SiteSGeraldo/irmas.xhtml HTTP/1.1" 200 5053
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:17 -0300] "POST /SiteSGeraldo/main.xhtml HTTP/1.1" 200 2864
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:18 -0300] "POST /SiteSGeraldo/varoes.xhtml HTTP/1.1" 200 5053
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:22 -0300] "POST /SiteSGeraldo/main.xhtml HTTP/1.1" 200 2898
+0:0:0:0:0:0:0:1 - - [17/Mar/2018:15:25:23 -0300] "POST /SiteSGeraldo/mocidade.xhtml HTTP/1.1" 200 5052
