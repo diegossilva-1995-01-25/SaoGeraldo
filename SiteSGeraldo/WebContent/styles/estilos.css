@@ -20,7 +20,7 @@ body {
 	
 }
 
-.footer {
+.footer, .redirect {
 	
 	color: rgb(187, 127, 44);
 	background-color: black;
@@ -33,12 +33,15 @@ body {
 	
 }
 
-.buttonPrincipal {
+.buttonPrincipal, .buttonClick {
 	
 	background-color: rgb(187, 127, 44);
 	color: black;
 	margin-left: 10px;
 	margin-right: 10px;
+	width: 250px;
+	font-family: cursive;
+	font-size: 20px;
 	
 }
 
@@ -95,5 +98,9 @@ strong{
 	
 	color: red;
 	
+}
+
+.panel{
+	margin: 0 auto;
 }
 
