@@ -33,6 +33,15 @@ body {
 	
 }
 
+.buttonPrincipal {
+	
+	background-color: rgb(187, 127, 44);
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
 .content {
 	
 	background-color: rgb(187, 127, 44);
@@ -57,7 +66,7 @@ body {
 	
 }
 
-#next, #last {
+#next, #last, #ceia {
 	
 	color: black;
 	
@@ -81,3 +90,10 @@ img {
 	
 	
 }
+
+strong{
+	
+	color: red;
+	
+}
+

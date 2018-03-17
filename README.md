@@ -1,5 +1,5 @@
 Site postado em:
-https://familiasaogeraldo.azurewebsites.net/beta.xhtml
+https://familiasaogeraldo.azurewebsites.net
 
 Site criado nas linguagens JAVA, HTML, CSS,
 XML;

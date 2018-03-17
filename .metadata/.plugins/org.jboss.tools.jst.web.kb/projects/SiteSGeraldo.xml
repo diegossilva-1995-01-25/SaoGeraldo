@@ -76,16 +76,23 @@
   <path value="C:/Program Files (x86)/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-es.jar"/>
  </paths>
  <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="18" name="%0" offset="1514" path="%1"/>
-   <linked-el length="16" name="%0" offset="1649" path="%1"/>
-   <linked-el length="18" name="%2" offset="1514" path="%1"/>
+   <linked-el length="16" name="%0" offset="2016" path="%1"/>
+   <linked-el length="22" name="%0" offset="1875" path="%1"/>
+   <linked-el length="16" name="%0" offset="2016" path="%2"/>
+   <linked-el length="22" name="%0" offset="1875" path="%2"/>
+   <linked-el length="22" name="%3" offset="1875" path="%1"/>
+   <linked-el length="22" name="%3" offset="1875" path="%2"/>
   </el>
  </validation>
  <aliases>
-  <alias path="teste" value="%0"/>
-  <alias path="/SiteSGeraldo/WebContent/beta.xhtml" value="%1"/>
-  <alias path="/SiteSGeraldo/src/com/saogeraldo/beans/TesteFotos.java" value="%2"/>
+  <alias path="principal" value="%0"/>
+  <alias
+   path="/SiteSGeraldo/src/com/saogeraldo/beans/PrincipalFotos.java" value="%3"/>
+  <alias path="/SiteSGeraldo/WebContent/principal.xhtml" value="%1"/>
+  <alias path="/SiteSGeraldo/WebContent/index.xhtml" value="%2"/>
  </aliases>
  <includes/>
  <uris>
