@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1" http-equiv="refresh" content="3; url=main.xhtml">
+	<title>Família São Geraldo</title>
+	<link type="text/css" rel="stylesheet" href="styles/estilos.css"/>
+</head>
+
+<body style="background-color: black">
+	<h1 id="Jesus">JESUS</h1>
+	<h2 class="redirect">Clique <a href="principal.xhtml">aqui</a> se a página não redirecionar.</h2>
+	
+</body>
+
+</html>

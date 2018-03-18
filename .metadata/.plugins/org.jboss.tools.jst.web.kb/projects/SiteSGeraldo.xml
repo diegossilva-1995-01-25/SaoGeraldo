@@ -79,24 +79,16 @@
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="16" name="%0" offset="2010" path="%1"/>
-   <linked-el length="16" name="%0" offset="2047" path="%2"/>
-   <linked-el length="16" name="%0" offset="2047" path="%3"/>
-   <linked-el length="22" name="%0" offset="1906" path="%2"/>
-   <linked-el length="22" name="%0" offset="1906" path="%3"/>
-   <linked-el length="22" name="%0" offset="1869" path="%1"/>
-   <linked-el length="22" name="%4" offset="1906" path="%2"/>
-   <linked-el length="22" name="%4" offset="1906" path="%3"/>
-   <linked-el length="22" name="%4" offset="1869" path="%1"/>
+   <linked-el length="16" name="%0" offset="2239" path="%1"/>
+   <linked-el length="22" name="%0" offset="2098" path="%1"/>
+   <linked-el length="22" name="%2" offset="2098" path="%1"/>
   </el>
  </validation>
  <aliases>
   <alias path="principal" value="%0"/>
-  <alias path="/SiteSGeraldo/WebContent/main.xhtml" value="%3"/>
+  <alias path="/SiteSGeraldo/WebContent/main.xhtml" value="%1"/>
   <alias
-   path="/SiteSGeraldo/src/com/saogeraldo/beans/PrincipalFotos.java" value="%4"/>
-  <alias path="/SiteSGeraldo/WebContent/index.xhtml" value="%1"/>
-  <alias path="/SiteSGeraldo/WebContent/principal.xhtml" value="%2"/>
+   path="/SiteSGeraldo/src/com/saogeraldo/beans/PrincipalFotos.java" value="%2"/>
  </aliases>
  <includes/>
  <uris>

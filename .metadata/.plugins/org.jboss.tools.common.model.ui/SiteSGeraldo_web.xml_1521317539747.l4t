@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/SiteSGeraldo/WebContent/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp31">
+   <Memento collapsed="false" type="Deployment Descriptor"/>
+   <Memento collapsed="false" type="Context Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="WebAppSessionConfig30">
+   <Memento collapsed="false" type="Session-Config"/>
+   <Memento collapsed="false" type="Cookie Configs"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="WebAppWelcomFileList">
+   <Memento collapsed="false" type="Welcome Files"/>
+  </Memento>
+  <Memento type="">
+   <Memento collapsed="false" type="Properties Editor"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

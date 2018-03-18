@@ -1,3 +1,5 @@
 Default\ VPE\ Tab=1
+Show\ Resource\ Bundles\ Usage\ as\ EL\ Expressions=true
 Show\ non-visual\ tags=true
+Synchronize\ scrolling\ between\ source\ and\ visual\ panes=true
 eclipse.preferences.version=1
